@@ -1,45 +1,48 @@
-# [GraphQL with React Tutorial](https://www.youtube.com/watch?v=YyUWW04HwKY&t=709s)
+# Users
 
-## Tech Used
-- React
-- Express
-- GraphQL
-- Apollo
+This app is a basic Express/GraphQL Server that allows you to add users from a React Frontend
 
-## Set Up Server
-- `npm init`
+### Frontend
 
-### Install Dependencies
-- `npm i express`
-- `npm i graphql`
-- `npm i express-graphql`
-- `npm i -D nodemon`
-- `npm i cors`
+#### React
 
-### Edit `package.json`
-```json
-/* Change this */
-"scripts": {
-  "test": "echo \"Error: no test specified\" && exit 1"
-},
-/* To this */
-"scripts": {
-  "dev": "nodemon server.js"
-},
-```
+### Backend
 
-### Start Server
-- `npm run dev`
+#### Node / Express
 
-## Set Up React
-- `npx create-react-app client`
+#### GraphQL
 
-In **/client**
-- `npm i @apollo/client`
-- `npm i graphql`
+#### Apollo
 
-### Start Server
-- `npm start`
+
+### Databases
+
+This project does **not** use a DB
+
+
+### APIs / Data
+
+Manipulates **local data** in `MOCK_DATA.json`
+
+| Type         | Query/Mutation                                     | Functionality |
+| :----------- | :------------------------------------------------- | :------------ |
+| **Query**    | `getAllUsers`                                      | Get all users |
+| **Mutation** | `createUser(firstName, lastName, email, password)` | Adds a user   |
+
+
+### Deployment
+
+This project is **not** deployed
+
+---
+
+### Related
+
+Here are some related projects
+
+[Awesome README](https://github.com/matiassingers/awesome-readme)
+
 ---
 
 ### Resources
+- [GraphQL with React Tutorial](https://www.youtube.com/watch?v=YyUWW04HwKY&t=709s)
